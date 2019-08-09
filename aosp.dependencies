@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "remote": "evo-devices",
+    "repository": "kernel_xiaomi_msm8937",
+    "target_path": "kernel/xiaomi/msm8937",
+    "revision": "lineage-16.0"
+  },
+  {
+    "remote": "evo-devices",
+    "repository": "vendor_xiaomi_land",
+    "target_path": "vendor/xiaomi",
+    "revision": "lineage-16.0-land"
   }
 ]
