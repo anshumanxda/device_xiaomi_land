@@ -42,7 +42,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable
 BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/release-keys"
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+PRODUCT_SYSTEM_PROPERTY += \
     ro.product.model
 
 #Evo stuffs
