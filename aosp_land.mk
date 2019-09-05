@@ -29,6 +29,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := land
+PRODUCT_MODEL := Redmi 3s
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := aosp_land
 
@@ -41,9 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable
 BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/release-keys"
-
-PRODUCT_SYSTEM_PROPERTY += \
-    ro.product.model
 
 #Evo stuffs
 TARGET_GAPPS_ARCH := arm64
